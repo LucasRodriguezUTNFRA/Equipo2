@@ -8,6 +8,8 @@ namespace Entidades
 {
     public class Entrada
     {
-
+        int precio;
+        long dni;
+   
     }
 }

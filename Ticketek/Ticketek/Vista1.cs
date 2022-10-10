@@ -23,6 +23,9 @@ namespace Ticketek
             if (SistemaDeEntradas.LogearUsuario(txb_usuario.Text, txb_contrasenia.Text))
             {
                 if(SistemaDeEntradas.NombreUsuario.GetType() == typeof(Empleado)){
+                    
+                    FrmMenuEmpleado form = new FrmMenuEmpleado();
+                    form.Show();
 
                 }
                 else{

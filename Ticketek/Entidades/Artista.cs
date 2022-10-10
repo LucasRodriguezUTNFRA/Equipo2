@@ -8,6 +8,11 @@ namespace Entidades
 {
     public class Artista
     {
+        private string nombre;
 
+        public Artista(string nombre)
+        {
+            this.nombre = nombre;
+        }
     }
 }
