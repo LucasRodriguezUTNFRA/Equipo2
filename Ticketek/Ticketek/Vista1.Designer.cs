@@ -35,9 +35,10 @@
             // 
             // btn_login
             // 
-            this.btn_login.Location = new System.Drawing.Point(340, 330);
+            this.btn_login.Location = new System.Drawing.Point(486, 520);
+            this.btn_login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(119, 55);
+            this.btn_login.Size = new System.Drawing.Size(170, 92);
             this.btn_login.TabIndex = 5;
             this.btn_login.Text = "Login";
             this.btn_login.UseVisualStyleBackColor = true;
@@ -45,28 +46,33 @@
             // 
             // txb_contrasenia
             // 
-            this.txb_contrasenia.Location = new System.Drawing.Point(262, 209);
+            this.txb_contrasenia.Location = new System.Drawing.Point(374, 348);
+            this.txb_contrasenia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_contrasenia.Name = "txb_contrasenia";
+            this.txb_contrasenia.PasswordChar = '*';
             this.txb_contrasenia.PlaceholderText = "Contraseña";
-            this.txb_contrasenia.Size = new System.Drawing.Size(277, 23);
+            this.txb_contrasenia.Size = new System.Drawing.Size(394, 31);
             this.txb_contrasenia.TabIndex = 4;
+            this.txb_contrasenia.UseSystemPasswordChar = true;
             // 
             // txb_usuario
             // 
-            this.txb_usuario.Location = new System.Drawing.Point(262, 66);
+            this.txb_usuario.Location = new System.Drawing.Point(374, 190);
+            this.txb_usuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txb_usuario.Name = "txb_usuario";
             this.txb_usuario.PlaceholderText = "Usuario";
-            this.txb_usuario.Size = new System.Drawing.Size(277, 23);
+            this.txb_usuario.Size = new System.Drawing.Size(394, 31);
             this.txb_usuario.TabIndex = 3;
             // 
             // Vista1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1143, 750);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.txb_contrasenia);
             this.Controls.Add(this.txb_usuario);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Vista1";
             this.Text = "Vista1";
             this.ResumeLayout(false);

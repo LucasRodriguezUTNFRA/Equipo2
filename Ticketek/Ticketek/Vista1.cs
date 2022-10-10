@@ -20,7 +20,19 @@ namespace Ticketek
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            SistemaDeEntradas.LogearUsuario(txb_usuario.Text, txb_contrasenia.Text);
+            if (SistemaDeEntradas.LogearUsuario(txb_usuario.Text, txb_contrasenia.Text))
+            {
+                if(SistemaDeEntradas.NombreUsuario.GetType() == typeof(Empleado)){
+
+                }
+                else{
+                    if (SistemaDeEntradas.NombreUsuario.GetType() == typeof(Cliente))
+                    {
+
+                    }
+
+                }
+            }
         }
     }
 }
