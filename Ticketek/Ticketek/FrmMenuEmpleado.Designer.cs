@@ -50,7 +50,7 @@ namespace Ticketek
             this.dgv_listadoShows.Location = new System.Drawing.Point(37, 88);
             this.dgv_listadoShows.Name = "dgv_listadoShows";
             this.dgv_listadoShows.RowTemplate.Height = 25;
-            this.dgv_listadoShows.Size = new System.Drawing.Size(352, 201);
+            this.dgv_listadoShows.Size = new System.Drawing.Size(598, 236);
             this.dgv_listadoShows.TabIndex = 2;
             // 
             // FrmMenuEmpleado
@@ -61,7 +61,7 @@ namespace Ticketek
             this.Controls.Add(this.dgv_listadoShows);
             this.Controls.Add(this.btn_AgregarShow);
             this.Name = "FrmMenuEmpleado";
-            this.Text = "FrmMenuEmpleado";
+            this.Text = "FrmMenuShows";
             this.Load += new System.EventHandler(this.FrmMenuEmpleado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_listadoShows)).EndInit();
             this.ResumeLayout(false);

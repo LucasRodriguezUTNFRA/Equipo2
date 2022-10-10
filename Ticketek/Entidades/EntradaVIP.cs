@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public abstract class Entrada
+    internal class EntradaVIP: Entrada
     {
-        int precio;
-        int dni;
-        string puerta;
+        private string asiento;
+
     }
 }
